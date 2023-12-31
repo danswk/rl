@@ -1,11 +1,21 @@
-- Game ends when hole or goal hit as expected
-- 
-- Reward given matches game result but reinforcement system not developed; agent does not improve as rounds progress
-  - Need to define action space
+# SUCCESSES
+- Grid/UI displays
+- Game ends when hole or goal hit
+- Game restarts at 'R' press, quits at 'Q' press
+- Reward given matches game result
 
-고칠 것
-- Time restarts when game ends: should be when game starts
+# LIMITATIONS
+- Time resets when game ends; should reset when game starts
+  - Time spent at game result screen carries over to next game
+- Reinforcement system not developed 
+  - Agent does not improve as rounds progress
 
-  - No system of recording episodes and relevant steps taken and reward received
+# 고칠 것
+- Stop time when game ends, reset when game starts
+- Define action space
+- Create episode simulator tracking actions, rewards
+  - Collect, store data
+- Fit regression model to data
+  - Use model predictions to guide agent
 ~
 12/2023
