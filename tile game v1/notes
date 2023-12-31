@@ -1,1 +1,11 @@
+- Game ends when hole or goal hit as expected
+- 
+- Reward given matches game result but reinforcement system not developed; agent does not improve as rounds progress
+  - Need to define action space
 
+고칠 것
+- Time restarts when game ends: should be when game starts
+
+  - No system of recording episodes and relevant steps taken and reward received
+~
+12/2023
