@@ -1,0 +1,23 @@
+# SUCCESS
+- Grid/UI displays
+- Game ends when hole or goal hit
+- Game restarts at 'R' press, quits at 'Q' press
+- Reward given matches game result
+
+# FAIL
+- start_time resets when game ends; should reset when game starts
+  - play_time from previous game carries over
+- Error when game quit
+
+# FIX
+- Stop time when game ends, reset when game starts
+- Fix game quit error
+- Develop reinforcement system
+  - Agent currently does not improve as rounds progress
+  - Define action space
+  - Create episode simulator tracking actions, rewards
+    - Collect, store data
+  - Fit regression model to data
+    - Use model predictions to guide agent
+~
+12/2023
