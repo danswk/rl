@@ -9,6 +9,7 @@
   - Time spent at game result screen carries over to next game
 - Reinforcement system not developed 
   - Agent does not improve as rounds progress
+- Error when game quit
 
 # 고칠 것
 - Stop time when game ends, reset when game starts
@@ -17,5 +18,6 @@
   - Collect, store data
 - Fit regression model to data
   - Use model predictions to guide agent
+- Fix game quit error
 ~
 12/2023
