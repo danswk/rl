@@ -13,7 +13,7 @@
 - Tweak model type/parameters to aim for consistent 50%< success rate
   - GridSearchCV
 ~
-- tile game ui/playtest.mp4 shows agent behaviour when movement is randomised
+- tile game/playtest.mp4 shows agent behaviour when movement is randomised
   - No exploitation system - all movement is exploration
 ~
 1/2024
