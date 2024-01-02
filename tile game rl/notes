@@ -2,14 +2,15 @@
 - Action, reward system work as expected
 - Agent performance improves substantially with reinforcement
   - Playing without reinforcement consistently produces 0 wins (win = goal reached/1짜리 reward achieved)
-  - Playing with reinforcement often produces wins in range 8-20
+  - Playing with reinforcement often produces wins in range 8-19
+    - Best success rate observed: 47.5%
 
 # FAIL
 - Agent performance with reinforcement unstable
   - Some plays produce few, 0 wins
 
 # FIX
-- Tweak model type/parameters
+- Tweak model type/parameters to aim for consistent 50%< success rate
   - GridSearchCV
 ~
 - tile game ui/playtest.mp4 shows agent behaviour when movement is randomised
